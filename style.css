@@ -78,7 +78,6 @@
 }
 
 .summary-item {
-    background-color: bisque;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,3 +86,14 @@
     margin-bottom: 1em;
     font-weight: 700;
 }
+
+.item-left {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.category {
+    font-size: 0.95em;
+}
+
