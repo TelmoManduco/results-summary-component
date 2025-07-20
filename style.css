@@ -68,9 +68,22 @@
 
 .summary-sec {
     padding: 1em 1.5em;
+    background-color: aliceblue;
 }
 
 .summary-sec .summary-title {
     font-weight: 800;
     margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+.summary-item {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    font-weight: 700;
 }
