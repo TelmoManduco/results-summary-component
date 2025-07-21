@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Mentor - Results Summary Component</title>
-    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -14,12 +14,15 @@
         <div class="card">
             <div class="result-sec">
                 <p class="title">Your Result</p>
-                <div class="score-sec">
+                <div class="score-circle">
                     <p class="score-number">76</p>
                     <p class="total-number">of 100</p>
                 </div>
                 <p class="greet">Great</p>
-                <p class="message">You scored higher than 65% of the<br> people who have taken these tests.</p>
+                <p class="message">
+                    You scored higher than 65% of the
+                    people who have taken these tests.
+                </p>
             </div>
 
             <div class="summary-sec">
@@ -27,39 +30,50 @@
 
                 <div class="summary-item reaction">
                     <div class="item-left">
-                        <img src="images/icon-reaction.svg" alt="Reaction Icon">
-                        <span class="category">Reaction</span>
+                        <img src="images/icon-reaction.svg" alt="Reaction Icon" />
+                        <span class="category reaction">Reaction</span>
                     </div>
-                    <div class="score-sec"><strong>80</strong> / 100</div>
+                    <div class="score-inline">
+                        <p><strong>80</strong></p>
+                        <p class="out-total">/ 100</p>
+                    </div>
                 </div>
 
                 <div class="summary-item memory">
                     <div class="item-left">
-                        <img src="images/icon-memory.svg" alt="Memory Icon">
-                        <span class="category">Memory</span>
+                        <img src="images/icon-memory.svg" alt="Memory Icon" />
+                        <span class="category memory">Memory</span>
                     </div>
-                    <div class="score-sec"><strong>92</strong> / 100</div>
+                    <div class="score-inline">
+                        <p><strong>92</strong></p>
+                        <p class="out-total">/ 100</p>
+                    </div>
                 </div>
 
                 <div class="summary-item verbal">
                     <div class="item-left">
-                        <img src="images/icon-verbal.svg" alt="Verbal Icon">
-                        <span class="category">Verbal</span>
+                        <img src="images/icon-verbal.svg" alt="Verbal Icon" />
+                        <span class="category verbal">Verbal</span>
                     </div>
-                    <div class="score-sec"><strong>61</strong> / 100</div>
+                    <div class="score-inline">
+                        <p><strong>61</strong></p>
+                        <p class="out-total">/ 100</p>
+                    </div>
                 </div>
 
                 <div class="summary-item visual">
                     <div class="item-left">
-                        <img src="images/icon-visual.svg" alt="Visual Icon">
-                        <span class="category">Visual</span>
+                        <img src="images/icon-visual.svg" alt="Visual Icon" />
+                        <span class="category visual">Visual</span>
                     </div>
-                    <div class="score-sec"><strong>73</strong> / 100</div>
+                    <div class="score-inline">
+                        <p><strong>73</strong></p>
+                        <p class="out-total">/ 100</p>
+                    </div>
                 </div>
 
                 <button class="continue-btn">Continue</button>
             </div>
-
         </div>
     </div>
 </body>
