@@ -4,13 +4,12 @@ This is a solution to the [Results Summary Component challenge on Frontend Mento
 
 ## 📸 Screenshot
 
-![Screenshot of the Blog preview card](./images/screenshot.png)
+![Screenshot of the Results Summary Component](./images/screenshot.png)
 
 ## 🔗 Links
 
-- Live Site URL: [Blog Preview Card - Live](https://telmomanduco.github.io/results-summary-component/
-)
-- Solution on Frontend Mentor: [Frontend Mentor Preview Card - Live](https://www.frontendmentor.io/solutions/blog-preview-card-built-with-flex-crHkcCzpqK)
+- Live Site URL: [Results Summary Component - Live](https://telmomanduco.github.io/results-summary-component/)
+- Solution on Frontend Mentor: [Frontend Mentor Results Summary Component - Live](https://www.frontendmentor.io/solutions/results-summary-component-flexbox-4iS8JiXhO7)
 
 ## 🛠 Built With
 
